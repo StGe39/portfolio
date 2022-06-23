@@ -1,0 +1,44 @@
+@import url(common.css);
+
+#wrap{
+  width:100%;
+}
+#loading{
+  width: 100%;
+  height: 100vh;
+  display: none;
+}
+
+
+
+
+
+#mainContent{
+  
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  background: yellow;
+}
+
+#webDesign, #webPublishing, #webPlan, #profile{
+  position: relative;
+  width: 23%;
+  max-width: 275px;
+  height: 40vh;
+  background: green;
+  margin:10% 1%;
+  border-radius: 5px;
+  transition: 1s;
+}
+#webDesign:after{
+  position: absolute;
+  content:"";
+  width: 3px;
+  height: 100%;
+  left: 5%;
+  background-color: white;
+}
